@@ -1,0 +1,45 @@
+.note {
+    position: relative;
+    padding: 4px 50px 4px 0px;
+    font-size: 18px;
+    border: 1px solid transparent;
+    overflow-wrap: anywhere;
+    white-space: break-spaces;
+    cursor: grab;
+    transition: .2s;
+
+    .note__editIcon {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 20px;
+        height: 25px;
+        cursor: pointer;
+        transition: .3s;
+
+        &:hover {
+            fill: #21c63d;
+        }
+    }
+
+    .note__deleteIcon {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 20px;
+        height: 25px;
+        cursor: pointer;
+        transition: .3s;
+        
+        &:hover {
+            fill: red;
+        }
+    }
+
+    &:hover {
+        border-top: 1px solid rgb(119, 0, 255);
+        border-bottom: 1px solid rgb(119, 0, 255);
+    }
+}

@@ -1,0 +1,41 @@
+.button {
+    padding: 7px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 2px solid #000;
+    font-size: 18px;
+    transition: .3s;
+
+    &:hover {
+        background-color: #09d5ff;
+    }
+
+    &.cancel {
+
+        &:hover {
+            background-color: #ff5959;
+        }
+    }
+
+    &.addNewNote {
+
+        &:hover {
+            background-color: #b473ff;
+        }
+    }
+
+    &.notActive {
+        border: 2px solid rgb(202, 202, 202);
+
+        &:hover {
+            background-color: transparent;
+        }
+    }
+
+    &.edit {
+
+        &:hover {
+            background-color: #5bff77;
+        }
+    }
+}

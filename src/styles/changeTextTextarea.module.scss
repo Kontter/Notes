@@ -1,0 +1,28 @@
+.editBlock {
+    position: relative;
+
+    .editBlock__editTextTextarea {
+       width: 100%; 
+       min-height: 150px;
+       padding: 4px 50px 4px 0;
+       resize: none;
+       outline: none;
+       font-size: 18px;
+       border: 1px solid rgb(119, 0, 255)
+    }
+
+    .editBlock__doneIcon {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        width: 30px;
+        height: 30px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        transition: .3s;
+
+        &:hover {
+            fill: #21c63d;
+        }
+    }
+}

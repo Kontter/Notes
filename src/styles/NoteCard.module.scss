@@ -1,0 +1,50 @@
+.noteCard {
+    position: relative;
+    max-width: 400px;
+    max-height: 780px;
+    overflow: auto;
+    width: 100%;
+    min-height: 250px;
+    padding: 20px 10px 10px;
+    border: 3px solid #00b6db;
+    transition: .3s;
+
+    .noteCard__title {
+        margin-bottom: 5px;
+        text-align: center;
+        overflow-wrap: anywhere;
+        white-space: break-spaces;
+        
+    }
+
+    .noteCard__buttons {
+        max-width: 300px;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin: 0 auto 10px;
+        text-align: center;
+
+        .noteCard__addNewNoteIcon {
+            width: 30px;
+            height: 30px;
+        }
+
+        .noteCard__deleteIcon {
+            width: 30px;
+            height: 30px;
+        }
+
+        .noteCard__editCardTitleIcon {
+            width: 30px;
+            height: 30px;
+        }
+
+    }
+
+    .noteCard__decorLine {
+        height: 1px;
+        margin-bottom: 15px;
+        border: 1px solid #00b6db;
+    }
+}
